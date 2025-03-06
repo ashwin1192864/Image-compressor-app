@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from ; // Correct import for Link
 import { Github, Heart } from 'lucide-react';
 
-const Footer: React.FC = () => {
+const Footer: React.FC = () => }
   return (
     <footer className="w-full py-6 px-6 bg-white dark:bg-gray-900 shadow-md transition-colors duration-300 mt-auto">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
@@ -30,13 +31,12 @@ const Footer: React.FC = () => {
               <Github className="w-5 h-5" />
             </a>
             
-            <a 
-              href="/privacy-policy" 
+            <Link 
+              to="/privacy-policy" 
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
             >
               Privacy Policy
-            </a>
-            
+            </Link>
             <a 
               href="/terms" 
               className="text-sm text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"

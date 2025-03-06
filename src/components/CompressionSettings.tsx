@@ -54,7 +54,7 @@ const CompressionSettings: React.FC<CompressionSettingsProps> = ({
         <Sliders className={`w-5 h-5 text-gray-500 dark:text-gray-400 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`} />
       </div>
       
-      {isOpen && (
+      {true && (
         <div className="p-4 border-t border-gray-200 dark:border-gray-700 space-y-4">
           <div className="space-y-2">
             <div className="flex justify-between items-center">
